@@ -51,6 +51,7 @@
 				<configuration>
 					<propertyFile>liquibase/liquibase.properties</propertyFile>
 					<changeLogFile>liquibase/db-changelog-master.xml</changeLogFile>
+					<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
 				</configuration>
 				<!-- I personally prefer run it manually -->
 				<executions>
